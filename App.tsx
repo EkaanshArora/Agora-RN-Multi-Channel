@@ -43,7 +43,7 @@ export default class App extends Component<Props, State> {
   constructor(props) {
     super(props);
     this.state = {
-      appId: '30a6bc89994d4222a71eba01c253cbc7',
+      appId: 'ENTER YOUR APP ID',
       token: null,                                                //using token as null for App ID without certificate
       channelNameOne: 'channel-1',
       channelNameTwo: 'channel-2',

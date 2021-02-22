@@ -1,17 +1,13 @@
-# Agora React Native Demo
+# Agora React Native Multi Channel Demo
 
-*其他语言版本：[中文](README.zh.md)*
-
-Quickstart for group video calls on [React Native SDK](https://facebook.github.io/react-native/) using Agora.io SDK.
-Use this guide to quickly start a multiple user group call.
-
-The source code of Agora React Native SDK can be found [Here](https://github.com/syanbo/react-native-agora), [API doc](https://syanbo.github.io/react-native-agora/globals.html).
+Quickstart for multiple channel video calls on [React Native SDK](https://facebook.github.io/react-native/) using Agora.io SDK.
+Use this guide to quickly connect to multiple channels for video call.
 
 ## Prerequisites
 
-* >= react native 0.59.10
-* iOS SDK 8.0+
-* Android 5.0+
+* >= react native 0.60.00
+* iOS SDK 10.0+
+* Android 6.0+
 * A valid Agora account [Sign up](https://dashboard.agora.io/en/) for free.
 
 Open the specified ports in [Firewall Requirements](https://docs.agora.io/en/Agora%20Platform/firewall?platform=All%20Platforms) if your network has a firewall.
@@ -46,11 +42,11 @@ Check the end of document if you want to use App ID with the certificate.
 
 * Download and extract the zip file.
 * Run `npm install` or use `yarn` to install the app dependencies in the unzipped directory.
-* Navigate to `./App.tsx` and enter your App ID that we generated as `appId: YourAppId,`
-* Open a terminal and execute `cd ios && pod install`.
+* Navigate to `./App.tsx` and enter your App ID that we generated on line 46 as `appId: 'YourAppId',`
+* [iOS] Open a terminal and execute `cd ios && pod install`.
 * Connect your device and run `npx react-native run-android` or `npx react-native run-ios` to start the app.
 
-The app uses `channel-x` as the channel name.
+The app uses `channel-1` and `channel-2` as the channel names.
 
 ## Sources
 * Agora [API doc](https://docs.agora.io/en/)
